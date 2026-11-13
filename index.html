@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello NewEra</title>
+<meta name="description" content="Hello NewEra — 欢迎来到新的起点。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="NewEra 首页">
+        <svg class="brand-mark" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="12" cy="12" r="3.2" fill="currentColor"/>
+        </svg>
+        <span class="brand-name">NewEra</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#home">首页</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title" id="hero">
+      <div class="shell hero-inner">
+        <p class="eyebrow">全新起点</p>
+        <h1 id="hero-title">Hello NewEra</h1>
+        <p class="welcome">欢迎来到新的起点，这里是开始你下一段旅程的地方。</p>
+        <div class="cta-wrap">
+          <button id="cta" class="btn-primary" type="button" aria-expanded="false" aria-controls="cta-feedback">开始探索</button>
+          <p id="cta-feedback" class="feedback" role="status" aria-live="polite" hidden>已为你准备好接下来的内容。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="features" aria-labelledby="features-title">
+      <div class="shell">
+        <h2 id="features-title" class="section-title">我们提供的</h2>
+        <div class="card-grid">
+          <article class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+              <path d="M13 2 4.5 13.5H11l-1 8.5 8.5-11.5H12l1-8.5Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+            <h3>快速上手</h3>
+            <p>无需复杂配置，打开即可使用，三步之内进入状态。</p>
+          </article>
+          <article class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+              <path d="M4 7h16M4 12h16M4 17h10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <h3>简洁专注</h3>
+            <p>只保留必要的信息与操作，让注意力回到内容本身。</p>
+          </article>
+          <article class="card">
+            <svg class="card-icon" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+              <rect x="3" y="4" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 20h8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <h3>响应式</h3>
+            <p>从手机到宽屏都能顺畅浏览，布局随视口自然调整。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="shell footer-inner">
+      <p class="copyright">&copy; 2025 NewEra</p>
+      <p class="contact-text">联系我们：hello@newera.example</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
